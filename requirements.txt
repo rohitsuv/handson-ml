@@ -25,7 +25,7 @@ numexpr==2.6.1
 numpy==1.12.0
 pandas==0.19.1
 Pillow==3.4.2
-protobuf==3.0.0
+protobuf==3.18.3
 psutil==5.0.0
 scikit-learn==0.18.1
 scipy==0.18.1
@@ -42,3 +42,4 @@ tensorflow==1.0.0
 # Optional: these are useful Jupyter extensions, in particular to display
 # the table of contents.
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
