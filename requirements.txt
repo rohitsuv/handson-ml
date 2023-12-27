@@ -26,7 +26,7 @@ numpy==1.12.0
 pandas==0.19.1
 Pillow==3.4.2
 protobuf==3.0.0
-psutil==5.0.0
+psutil==5.6.7
 scikit-learn==0.18.1
 scipy==0.18.1
 sympy==1.0
@@ -42,3 +42,7 @@ tensorflow==1.0.0
 # Optional: these are useful Jupyter extensions, in particular to display
 # the table of contents.
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
